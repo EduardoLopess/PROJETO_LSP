@@ -1,3 +1,4 @@
-# Laboratório de Simulação e Prototipagem
+# Mão Solidária
 
-Plataforma Mão Solidária
+Projeto elaborado como parte da disciplina de Laboratório de Simulação e Prototipagem.
+
