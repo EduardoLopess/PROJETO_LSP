@@ -42,7 +42,7 @@ Retorna um usuário específico com base no ID.
 
 PUT /api/User/{id}
 
-- Exemplo do corpo da requisição para atualizar de usuário 
+- Exemplo do corpo da requisição para atualizar o usuário 
 
 Obs: Endereço deve ser informado junto!
 
