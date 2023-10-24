@@ -33,17 +33,17 @@ POST api/user
 ```
 GET /api/User
 
-    Retorna todos os usuário cadastrados.
+- Retorna todos os usuário cadastrados.
 
 GET /api/User/{id}
 
-    Retorna um usuário específico com base no ID.
+- Retorna um usuário específico com base no ID.
 
 PUT /api/User/{id}
 
-    Atualiza as informações de um usuário existente.
+- Atualiza as informações de um usuário existente.
 
-    -> Endereço deve ser informado junto!
+ Obs: Endereço deve ser informado junto!
 ```
     {
   "name": "string",
