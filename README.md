@@ -11,7 +11,7 @@ CRUD de Usuario e Instituto
 - Exemplo do corpo da requisição para cadastro de usuário 
   Obs: Obrigatório o envio de endereço no corpo do JSON
 
-```json
+```
 {
   "name": "string",
   "surname": "string",
@@ -31,22 +31,22 @@ CRUD de Usuario e Instituto
     }
   ]
 }
-
+```
 GET /api/User
 
-    Retorna todos os usuários cadastrados.
+Retorna todos os usuários cadastrados.
 
 GET /api/User/{id}
 
-    Retorna um usuário específico com base no ID.
+Retorna um usuário específico com base no ID.
 
 PUT /api/User/{id}
 
-    Atualiza as informações de um usuário existente.
+Atualiza as informações de um usuário existente.
 
 Obs: Endereço deve ser informado junto!
 
-json
+```
 
 {
   "name": "string",
@@ -67,3 +67,4 @@ json
     }
   ]
 }
+```
