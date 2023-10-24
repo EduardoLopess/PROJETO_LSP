@@ -5,10 +5,11 @@ Projeto elaborado como parte da disciplina de Laboratório de Simulação e Prot
 CRUD de Usuario e Instituto
 
 ## ContollerUser 
-POST api/user
+
+### POST api/user
 
 - Exemplo do corpo da requisição para cadastro de usuário 
-    Obs: Obrigatorio o envio Endreco no corpo do json
+  Obs: Obrigatório o envio de endereço no corpo do JSON
 
 ```json
 {
@@ -30,22 +31,24 @@ POST api/user
     }
   ]
 }
-```
+
 GET /api/User
 
-- Retorna todos os usuário cadastrados.
+    Retorna todos os usuários cadastrados.
 
 GET /api/User/{id}
 
-- Retorna um usuário específico com base no ID.
+    Retorna um usuário específico com base no ID.
 
 PUT /api/User/{id}
 
-- Atualiza as informações de um usuário existente.
+    Atualiza as informações de um usuário existente.
 
- Obs: Endereço deve ser informado junto!
-```
-    {
+Obs: Endereço deve ser informado junto!
+
+json
+
+{
   "name": "string",
   "surname": "string",
   "phoneNumber": "string",
@@ -64,4 +67,3 @@ PUT /api/User/{id}
     }
   ]
 }
-```
